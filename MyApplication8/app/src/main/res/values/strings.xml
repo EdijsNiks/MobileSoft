@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application7</string>
+    <string name="Go2nd">Go to 2nd Activity</string>
+    <string name="Back">Back</string>
+    <string name="ReadPref">Read preferences</string>
+    <string name="Save">Save</string>
+
+    <string-array name="theme_entries">
+        <item>Default</item>
+        <item>Dark theme</item>
+        <item>Light theme</item>
+    </string-array>
+</resources>
