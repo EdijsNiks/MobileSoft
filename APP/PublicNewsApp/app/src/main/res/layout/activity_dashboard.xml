@@ -26,14 +26,27 @@
             android:textSize="16sp" />
 
         <Button
-            android:id="@+id/btn_readNews"
+            android:id="@+id/btn_seeInAR"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/btn_publishNews"
             android:layout_gravity="bottom"
             android:layout_marginTop="50dp"
             android:backgroundTint="@color/button"
-            android:text="Read some news"
+            android:text="See news in AR"
+            android:textAllCaps="false"
+            android:textColor="@color/text"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_generalNews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_publishNews"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="@color/button"
+            android:text="General news"
             android:textAllCaps="false"
             android:textColor="@color/text"
             android:textSize="16sp" />
