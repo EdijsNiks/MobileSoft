@@ -14,7 +14,7 @@ android:icon="@drawable/newsletter"
 android:label="@string/app_name"
 android:roundIcon="@drawable/newsletter"
 android:supportsRtl="true"
-android:theme="@style/Theme.PublicNewsApp">
+android:theme="@style/Theme.Nextory">
 <activity
     android:name=".ReadNews"
     android:exported="true" />
