@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/back_reg"
     tools:context=".Login">
 
     <LinearLayout
@@ -14,17 +15,34 @@
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="214dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_marginTop="40dp"
-            android:background="@drawable/hello" />
+            android:background="@drawable/newsletter"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/title_app"
+            android:textColor="@color/text"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Provide your Email and Password to Login"
+            android:textColor="@color/text"
+            android:textSize="16sp" />
 
 
         <EditText
             android:id="@+id/et_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="40dp"
             android:hint="Email"
             android:textColor="@color/text"
             android:textSize="16sp" />
@@ -33,7 +51,7 @@
             android:id="@+id/et_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="30dp"
             android:hint="Password"
             android:textColor="@color/text"
             android:textSize="16sp" />

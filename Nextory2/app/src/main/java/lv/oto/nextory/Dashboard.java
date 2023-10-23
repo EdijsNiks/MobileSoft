@@ -19,7 +19,6 @@ public class Dashboard extends AppCompatActivity {
         btn_publishNews = findViewById(R.id.btn_publishNews);
         btn_generalNews = findViewById(R.id.btn_generalNews);
 
-
         btn_publishNews.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
