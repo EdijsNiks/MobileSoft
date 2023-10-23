@@ -16,16 +16,9 @@ public class Dashboard extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
 
-        //btn_readNews = findViewById(R.id.btn_readNews);
         btn_publishNews = findViewById(R.id.btn_publishNews);
         btn_generalNews = findViewById(R.id.btn_generalNews);
 
-        //btn_readNews.setOnClickListener(new View.OnClickListener() {
-            //@Override
-            //public void onClick(View v) {
-                //startActivity(new Intent(Dashboard.this, ReadNews.class));
-            //}
-        //});
         btn_publishNews.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

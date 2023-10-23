@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     public static final String COUNTRY = "in";
 
     TabLayout tabLayout;
-    TabItem mhome, mscience, mhealth, mtech, mentertainment, msports;
+    TabItem mhome, mscience, mhealth, mtech, msports;
     PagerAdapter pagerAdapter;
     Toolbar mtoolbar;
 
@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
         mscience = findViewById(R.id.science);
         mhealth = findViewById(R.id.health);
         mtech = findViewById(R.id.technology);
-        //mentertainment = findViewById(R.id.entertainment);
         msports = findViewById(R.id.sports);
 
         ViewPager viewPager = findViewById(R.id.fragmentcontainer);
