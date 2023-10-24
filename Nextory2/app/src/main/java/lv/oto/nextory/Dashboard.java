@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class Dashboard extends AppCompatActivity {
 
-    Button  btn_generalNews, btn_publishNews;
+    Button  btn_generalNews, btn_publishNews, btn_seeInAR;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +18,7 @@ public class Dashboard extends AppCompatActivity {
 
         btn_publishNews = findViewById(R.id.btn_publishNews);
         btn_generalNews = findViewById(R.id.btn_generalNews);
+        btn_seeInAR = findViewById(R.id.btn_seeInAR);
 
         btn_publishNews.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -29,6 +30,12 @@ public class Dashboard extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Dashboard.this, MainActivity.class));
+            }
+        });
+        btn_seeInAR.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Dashboard.this, AugmentedReality.class));
             }
         });
 
